@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <title>ClockWork</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+  </head>
+
+  <body>
+    <header>
+      <h2 class="main_head">Реєстрація користувача</h2>
+    </header>
+
+    <nav class="nav font_all_white">
+      <a class="nav-link" href="login_in.html" style="color: white;">Вхід</a>
+      <a class="nav-link" href="profile.html" style="color: white;">Профіль</a>
+      <a class="nav-link" href="about_app.html" style="color: white;">Про додаток</a>
+      <a class="nav-link" href="index.html" style="color: white;">Облік робочого часу</a>
+    </nav>
+
+    <article>
+
+      <form action="date.html">
+        <div class="mb-3">
+          <div class="mb-3">
+              <label for="UserName" class="form-label font_all">Ім'я:</label><br>
+              <input type="text" class="form-control" aria-describedby="name" name="firstname">
+          </div>
+          <div class="mb-3">
+              <label for="UserSurname" class="form-label font_all">Призвіще:</label><br>
+              <input type="text" class="form-control" aria-describedby="surname" name="surname">
+          </div> 
+          <div class="mb-3">
+              <label for="InputEmail" class="form-label font_all">Email:</label><br>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+          </div>
+          <div class="mb-3">
+              <label for="UserGender" class="form-label font_all">Стать:</label><br>
+              <select class="form-select font_all" aria-label="Default select example" name="gender">
+              <option class="font_all" selected>Виберіть стать</option>  
+              <option class="font_all" value="female">Female</option>
+              <option class="font_all" value="male">Male</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="UserBirthday" class="form-label font_all"> Дата народження:</label><br>
+            <input type="date" class="form-control font_all" name="birthday">
+          </div>
+          <div class="mb-3">
+            <label for="InputPassword" class="form-label font_all">Пароль:</label><br>
+            <input type="password" class="form-control" id="exampleInputPassword1" aria-describedby="passwordHelp" name="password">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input font_all" id="exampleCheck1">
+            <label class="form-check-label font_all" for="exampleCheck1">Перевірка</label>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary but_1 font_all_white">Реєстрація</button><br>
+          <a class="reg_log_a font_all" href="login_in.html">Вхід</a>
+      </form>
+    </article>
+
+    <footer>
+      <div cass="footer_link">
+        <a class="nav-link" href="user_registration.html" style="color: white;">Реєстрація</a>
+        <a class="nav-link" href="login_in.html" style="color: white;">Вхід</a> 
+        <a class="nav-link" href="profile.html" style="color: white;">Профіль</a>
+        <a class="nav-link" href="about_app.html" style="color: white;">Про додаток</a>
+        <a class="nav-link" href="index.html" style="color: white;">Облік робочого часу</a>
+      </div>
+    </footer>
+  </body>
+</html>
